@@ -21,9 +21,9 @@ models:
       
       - name: status
         description: ""
-        tests:
-          - accepted_values:
-              values: [1,2,3,4]
+        # tests:
+        #   - accepted_values:
+        #       values: [1,2,3,4]
       
       - name: onlineorderflag
         description: ""

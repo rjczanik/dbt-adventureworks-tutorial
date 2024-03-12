@@ -37,3 +37,6 @@ models:
       +materialized: view
     warehouse:
       +materialized: table
+      +persist_docs:
+        relation: true
+        column: true
